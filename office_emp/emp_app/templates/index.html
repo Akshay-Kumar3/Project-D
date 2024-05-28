@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Employment System</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #007bff;
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff;
+        }
+        .btn:not(:disabled):not(.disabled) {
+            cursor: pointer;
+            font-size: 13px;
+        }
+        .hero-section {
+            background-image: url(https://source.unsplash.com/random/1920x1080);
+            background-size: cover;
+            height: 598px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+        }
+        
+
+        .cta-button {
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Office Employment System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup">Sign_up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about_us">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="btn btn-primary mr-2" href="/all_emp" role="button">View All Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary mr-2" href="/add_emp" role="button">Add An Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary mr-2" href="/remove_emp" role="button">Remove An Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-primary" href="/filter_emp" role="button">Filter Employee Details</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="hero-section">
+    <div class="container">
+        <h1>Welcome to Office Employment System</h1>
+        <p>We provide efficient solutions for managing your workforce</p>
+        <a href="/login" class="cta-button">Get Started</a>
+    </div>
+</div>
+
+</body>
+</html>

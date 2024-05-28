@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./office_emp/emp_app"
+    ]
+}

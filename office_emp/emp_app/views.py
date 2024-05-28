@@ -43,7 +43,7 @@ def remove_emp(request,emp_id=0):
             emp_to_be_removed.delete()
             return HttpResponse("Employee removed succesufully")
         except:
-            return HttpResponse("please enter a valid emp_idyhnytun")
+            return HttpResponse("please enter a valid emp_id")
 
     emps=Employee.objects.all()
     context={
